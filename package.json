@@ -1,0 +1,40 @@
+{
+  "name": "font-scanner",
+  "version": "0.1.1",
+  "description": "Provides access to the system font catalog",
+  "main": "index.js",
+  "dependencies": {
+    "nan": ">=2.10.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "rebuild-debug": "node-gyp rebuild --debug",
+    "rebuild-release": "node-gyp rebuild",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatarelib/FontScanner.git"
+  },
+  "keywords": [
+    "font",
+    "find",
+    "search",
+    "substitute",
+    "enumerate"
+  ],
+  "contributors": [
+    "Gatare Libère <gatarelib@gmail.com>",
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gatarelib/FontScanner/issues"
+  },
+  "homepage": "https://github.com/gatarelib/FontScanner"
+}
